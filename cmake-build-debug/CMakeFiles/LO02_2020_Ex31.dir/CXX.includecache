@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lunde/CLionProjects/LO02_2020_Ex31/evenement.h
+iostream
+-
+string
+-
+timing.h
+C:/Users/lunde/CLionProjects/LO02_2020_Ex31/timing.h
+vector
+-
+
+C:/Users/lunde/CLionProjects/LO02_2020_Ex31/main.cpp
+iostream
+-
+iostream
+-
+evenement.h
+C:/Users/lunde/CLionProjects/LO02_2020_Ex31/evenement.h
+
+C:/Users/lunde/CLionProjects/LO02_2020_Ex31/timing.h
+string
+-
+cstring
+-
+iostream
+-
+
