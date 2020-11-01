@@ -27,8 +27,7 @@ namespace TIME{
 
         virtual void afficher(std::ostream& f=std::cout)const=0;
         virtual ~Evt() {};
-        virtual Evt* clone() const=0;
-
+        virtual Evt* clone() const=0; // Ex 31 q2
     };
 
     class EvtPj : public Evt {
@@ -46,7 +45,7 @@ namespace TIME{
             f<<"***** Evt ********"<<"\n"<<"Date debut="<<date_debut<<", date fin = " << date_fin << " sujet="<< getDescription()<<"\n";
         }
 
-        EvtPj* clone() const;
+        EvtPj* clone() const; // Ex 31 q2
 
 
 
@@ -210,20 +209,21 @@ namespace TIME{
         throw "type evt inattendu";
     }
 
-//    inline bool operator<(const Evt& e1, const Evt& e2){
-//        Date d1=getDate(e1);
-//        Date d2=getDate(e2);
-//        if (d1<d2) return true;
-//        if (d2<d1) return false;
-//
-//        // d1==d2
-//        const Evt1jDur* pt1=dynamic_cast<const Evt1jDur*>(&e1);
-//        const Evt1jDur* pt2=dynamic_cast<const Evt1jDur*>(&e2);
-//        if (pt1==nullptr && pt2!=nullptr) return true;
-//        if (pt1!=nullptr && pt2==nullptr) return false;
-//        // ce sont deux evt avec un horaire, on les compare
-//        return pt1->getHoraire() < pt2->getHoraire();
-//    }
+    inline bool operator<(const Evt& e1, const Evt& e2){
+        Date d1=getDate(e1);
+        Date d2=getDate(e2);
+
+        if (d1<d2) return true;
+        if (d2<d1) return false;
+
+        // d1==d2
+        const Evt1jDur* pt1=dynamic_cast<const Evt1jDur*>(&e1);
+        const Evt1jDur* pt2=dynamic_cast<const Evt1jDur*>(&e2);
+        if (pt1==nullptr && pt2!=nullptr) return true;
+        if (pt1!=nullptr && pt2==nullptr) return false;
+        // ce sont deux evt avec un horaire, on les compare
+        return pt1->getHoraire() < pt2->getHoraire();
+    }
 
 }
 

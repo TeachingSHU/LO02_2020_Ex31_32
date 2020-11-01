@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LO02_2020_Ex31">
-				<Option output="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/LO02_2020_Ex31.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/LO02_2020_Ex31.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 LO02_2020_Ex31"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 LO02_2020_Ex31"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LO02_2020_Ex31/fast">
-				<Option output="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/LO02_2020_Ex31.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/LO02_2020_Ex31.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,46 +53,46 @@
 					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 LO02_2020_Ex31/fast"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 LO02_2020_Ex31/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lunde/CLionProjects/LO02_2020_Ex31/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/LO02_2020_Ex31_32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/evenement.cpp">
+		<Unit filename="C:/Users/Administrator/LO02_2020_Ex31_32/evenement.cpp">
 			<Option target="LO02_2020_Ex31"/>
 		</Unit>
-		<Unit filename="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/evenement.h">
+		<Unit filename="C:/Users/Administrator/LO02_2020_Ex31_32/evenement.h">
 			<Option target="LO02_2020_Ex31"/>
 		</Unit>
-		<Unit filename="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/main.cpp">
+		<Unit filename="C:/Users/Administrator/LO02_2020_Ex31_32/main.cpp">
 			<Option target="LO02_2020_Ex31"/>
 		</Unit>
-		<Unit filename="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/timing.h">
+		<Unit filename="C:/Users/Administrator/LO02_2020_Ex31_32/timing.h">
 			<Option target="LO02_2020_Ex31"/>
 		</Unit>
-		<Unit filename="C:/Users/lunde/CLionProjects/LO02_2020_Ex31/CMakeLists.txt">
+		<Unit filename="C:/Users/Administrator/LO02_2020_Ex31_32/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

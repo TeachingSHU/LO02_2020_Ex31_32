@@ -26,6 +26,23 @@ void ex31_question_1_and_2()
     }
 }
 
+
+void ex32_q1()
+{
+    Evt1j e1(Date(4,10,1957),"Spoutnik");
+    Evt1j e2(Date(11,6,2013),"Shenzhou");
+    Evt1jDur e3(Date(11,6,2013),"Lancement de Longue Marche",Horaire(17,38),Duree
+            (10));
+    Rdv e4(Date(11,4,2013),"reunion UV",Horaire(17,30),Duree(60),"Intervenants UV","bureau");
+    Evt1j* pt1= &e1; Evt1j* pt2=&e2; Evt1j* pt3=&e3; Evt1j* pt4=&e4;
+    Evt1j& ref1=e1; Evt1j& ref2=e2; Evt1j& ref3=e3; Evt1j& ref4=e4;
+
+    Rdv* pt=dynamic_cast<Rdv*>(pt1);
+    if (pt) pt->afficher(); // nullptr
+    pt=dynamic_cast<Rdv*>(pt2); if (pt) pt->afficher();
+    pt=dynamic_cast<Rdv*>(pt3); if (pt) pt->afficher();
+}
+
 void ex32_question_1()
 {
     Evt1j e1(Date(4,10,1957),"Spoutnik");
@@ -34,6 +51,8 @@ void ex32_question_1()
     Rdv e4(Date(11,4,2013),"reunion UV",Horaire(17,30),Duree(60),"Intervenants UV","bureau");
     Evt1j* pt1= &e1; Evt1j* pt2=&e2; Evt1j* pt3=&e3; Evt1j* pt4=&e4;
     Evt1j& ref1=e1; Evt1j& ref2=e2; Evt1j& ref3=e3; Evt1j& ref4=e4;
+
+
     Rdv* pt=dynamic_cast<Rdv*>(pt1); if (pt) pt->afficher();
     pt=dynamic_cast<Rdv*>(pt2); if (pt) pt->afficher();
     pt=dynamic_cast<Rdv*>(pt3); if (pt) pt->afficher();
@@ -54,12 +73,20 @@ void ex32_question_1()
 
 void ex32_question_2()
 {
+    Evt1j e1(Date(4,10,1957),"Spoutnik");
+    Evt1j e2(Date(11,6,2013),"Shenzhou");
+    Evt1jDur e3(Date(11,4,2013),"Lancement de Longue Marche",Horaire(17,38),Duree(10));
+    Rdv e4(Date(11,4,2013),"reunion UV",Horaire(17,30),Duree(60),"Intervenants UV","bureau");
+
+
+    cout << (e1 < e2) << endl;
+    cout << (e3 < e4) << endl;
 
 }
 
 
 int main(){
-    ex32_question_1();
+    ex32_question_2();
     return 0;
 }
 

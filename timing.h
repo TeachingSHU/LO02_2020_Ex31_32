@@ -29,6 +29,16 @@ namespace TIME
         }
     };
 
+    inline bool operator<(const Date& d1, const Date& d2) {
+        if(d1.year < d2.year) return true;
+        if(d1.month < d2.month) return true;
+        if(d1.day < d2.day) return true;
+        return false;
+    }
+
+
+
+
     class Duree
     {
     public:
@@ -57,6 +67,13 @@ namespace TIME
                    + std::to_string(minute);
         }
     };
+
+    inline bool operator<(const Horaire& d1, const Horaire& d2) {
+        if(d1.hour < d2.hour) return true;
+        if(d1.minute < d2.minute) return true;
+        return false;
+    }
+
 
     inline std::ostream & operator<<(std::ostream & F, const Date & d) {
         string s = std::to_string(d.year)

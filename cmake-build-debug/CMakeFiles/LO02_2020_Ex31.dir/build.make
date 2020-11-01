@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\programs\clion\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\programs\clion\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\lunde\CLionProjects\LO02_2020_Ex31
+CMAKE_SOURCE_DIR = C:\Users\Administrator\LO02_2020_Ex31_32
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LO02_2020_Ex31.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/LO02_2020_Ex31.dir/flags.make
 
 CMakeFiles/LO02_2020_Ex31.dir/main.cpp.obj: CMakeFiles/LO02_2020_Ex31.dir/flags.make
 CMakeFiles/LO02_2020_Ex31.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LO02_2020_Ex31.dir/main.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LO02_2020_Ex31.dir\main.cpp.obj -c C:\Users\lunde\CLionProjects\LO02_2020_Ex31\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LO02_2020_Ex31.dir/main.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LO02_2020_Ex31.dir\main.cpp.obj -c C:\Users\Administrator\LO02_2020_Ex31_32\main.cpp
 
 CMakeFiles/LO02_2020_Ex31.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LO02_2020_Ex31.dir/main.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lunde\CLionProjects\LO02_2020_Ex31\main.cpp > CMakeFiles\LO02_2020_Ex31.dir\main.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\LO02_2020_Ex31_32\main.cpp > CMakeFiles\LO02_2020_Ex31.dir\main.cpp.i
 
 CMakeFiles/LO02_2020_Ex31.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LO02_2020_Ex31.dir/main.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lunde\CLionProjects\LO02_2020_Ex31\main.cpp -o CMakeFiles\LO02_2020_Ex31.dir\main.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\LO02_2020_Ex31_32\main.cpp -o CMakeFiles\LO02_2020_Ex31.dir\main.cpp.s
 
 CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.obj: CMakeFiles/LO02_2020_Ex31.dir/flags.make
 CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.obj: ../evenement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LO02_2020_Ex31.dir\evenement.cpp.obj -c C:\Users\lunde\CLionProjects\LO02_2020_Ex31\evenement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LO02_2020_Ex31.dir\evenement.cpp.obj -c C:\Users\Administrator\LO02_2020_Ex31_32\evenement.cpp
 
 CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lunde\CLionProjects\LO02_2020_Ex31\evenement.cpp > CMakeFiles\LO02_2020_Ex31.dir\evenement.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\LO02_2020_Ex31_32\evenement.cpp > CMakeFiles\LO02_2020_Ex31.dir\evenement.cpp.i
 
 CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LO02_2020_Ex31.dir/evenement.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lunde\CLionProjects\LO02_2020_Ex31\evenement.cpp -o CMakeFiles\LO02_2020_Ex31.dir\evenement.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\LO02_2020_Ex31_32\evenement.cpp -o CMakeFiles\LO02_2020_Ex31.dir\evenement.cpp.s
 
 # Object files for target LO02_2020_Ex31
 LO02_2020_Ex31_OBJECTS = \
@@ -96,7 +96,7 @@ LO02_2020_Ex31.exe: CMakeFiles/LO02_2020_Ex31.dir/build.make
 LO02_2020_Ex31.exe: CMakeFiles/LO02_2020_Ex31.dir/linklibs.rsp
 LO02_2020_Ex31.exe: CMakeFiles/LO02_2020_Ex31.dir/objects1.rsp
 LO02_2020_Ex31.exe: CMakeFiles/LO02_2020_Ex31.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LO02_2020_Ex31.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LO02_2020_Ex31.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LO02_2020_Ex31.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/LO02_2020_Ex31.dir/clean:
 .PHONY : CMakeFiles/LO02_2020_Ex31.dir/clean
 
 CMakeFiles/LO02_2020_Ex31.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\lunde\CLionProjects\LO02_2020_Ex31 C:\Users\lunde\CLionProjects\LO02_2020_Ex31 C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug C:\Users\lunde\CLionProjects\LO02_2020_Ex31\cmake-build-debug\CMakeFiles\LO02_2020_Ex31.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Administrator\LO02_2020_Ex31_32 C:\Users\Administrator\LO02_2020_Ex31_32 C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug C:\Users\Administrator\LO02_2020_Ex31_32\cmake-build-debug\CMakeFiles\LO02_2020_Ex31.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LO02_2020_Ex31.dir/depend
 

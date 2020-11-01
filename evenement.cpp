@@ -27,7 +27,12 @@ void Agenda::afficher(std::ostream& f) const {
 
 }
 
-Evt1j* Evt1j::clone() const { return new Evt1j(*this); }
+Evt1j* Evt1j::clone() const
+{
+    return new Evt1j(*this);
+}
+
+
 Evt1jDur* Evt1jDur::clone() const { return new Evt1jDur(*this); }
 Rdv* Rdv::clone() const { return new Rdv(*this); }
 EvtPj* EvtPj::clone() const { return new EvtPj(*this); }

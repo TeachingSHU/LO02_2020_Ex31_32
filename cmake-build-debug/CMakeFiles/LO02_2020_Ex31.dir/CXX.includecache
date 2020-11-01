@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/lunde/CLionProjects/LO02_2020_Ex31/evenement.h
+C:/Users/Administrator/LO02_2020_Ex31_32/evenement.cpp
+evenement.h
+C:/Users/Administrator/LO02_2020_Ex31_32/evenement.h
+
+C:/Users/Administrator/LO02_2020_Ex31_32/evenement.h
 iostream
 -
 string
 -
 timing.h
-C:/Users/lunde/CLionProjects/LO02_2020_Ex31/timing.h
+C:/Users/Administrator/LO02_2020_Ex31_32/timing.h
 vector
 -
 
-C:/Users/lunde/CLionProjects/LO02_2020_Ex31/main.cpp
+C:/Users/Administrator/LO02_2020_Ex31_32/main.cpp
 iostream
 -
 iostream
 -
 evenement.h
-C:/Users/lunde/CLionProjects/LO02_2020_Ex31/evenement.h
+C:/Users/Administrator/LO02_2020_Ex31_32/evenement.h
 
-C:/Users/lunde/CLionProjects/LO02_2020_Ex31/timing.h
+C:/Users/Administrator/LO02_2020_Ex31_32/timing.h
 string
 -
 cstring
